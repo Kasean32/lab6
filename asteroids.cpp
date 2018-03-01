@@ -285,6 +285,7 @@ int check_keys(XEvent *e);
 void physics();
 void render();
 
+
 //==========================================================================
 // M A I N
 //==========================================================================
@@ -787,6 +788,8 @@ void render()
 			}
 		glEnd();
 	}
+	extern void showName(const char *name);
+	showName("Kasean: He stholed mi girl B");
 	//------------------
 	//Draw the asteroids
 	{
